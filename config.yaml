@@ -1,6 +1,6 @@
-baseurl: /
+baseurl: /willmeesearch.com
 languageCode: en-us
-title: A Hugo website
+title: "William B. Meese"
 theme: "anatole"
 googleAnalytics: ''
 disqusShortname: ''
@@ -16,14 +16,18 @@ menu:
   main:
     - name: About
       url: /about/
+    - name: Research
+      url: /research/
+    - name: CV
+      url: /vitae/
     - name: GitHub
-      url: https://github.com/rstudio/blogdown
+      url: https://github.com/meesew
     - name: Twitter
-      url: https://twitter.com/rstudio
+      url: https://twitter.com/meesewilliam
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
-  description: A website built through Hugo and blogdown.
+  description: "Social | Health Psychologist (**in prep**)""
   favicon: favicon.ico
   highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
   highlightjsLang:
@@ -31,6 +35,7 @@ params:
     - yaml
   highlightjsTheme: github
   highlightjsVersion: 9.12.0
+  profilePicture: images/profile.jpg
   logo:
     alt: Logo
     height: 50
